@@ -13,10 +13,21 @@ color: orange;
 
 .teraz
 {
-    color: yellow
+    color: yellow;
 }
 
 a,span
 {
-    color: brown
+    color: brown;
+}
+
+li > a
+{
+    color: blueviolet;
+}
+
+div a 
+
+{
+    color: deeppink;
 }
