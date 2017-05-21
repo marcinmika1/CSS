@@ -26,8 +26,16 @@ li > a
     color: blueviolet;
 }
 
+
+/* kazdy element w div*/
 div a 
 
 {
     color: deeppink;
+}
+
+/* pierwsze po h2 zmień na*/
+h2 + h3
+{
+    color: forestgreen;
 }
