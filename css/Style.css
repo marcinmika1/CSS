@@ -1,3 +1,4 @@
+/*selektor znacznika */
 p
 {
     
@@ -5,3 +6,7 @@ color: orange;
     
 }
 
+#paragraf 
+{
+    color: aqua;
+}
