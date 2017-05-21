@@ -39,3 +39,25 @@ h2 + h3
 {
     color: forestgreen;
 }
+
+
+/* wszystkie p na tym samym poziomi co h4*/
+
+h4~p
+{
+    color: darkseagreen;
+}
+
+/*wykluczenie ktoregoś z selektorow*/
+
+ul > li:not(.last)
+{
+    color: darksalmon;
+}
+/*wykluczenie kokretnego w (ktory z kolei)mozna wpisac jakas frmułe np 2n+1 lub slów kluczowych np odd nieparzyste z selektorow*/
+
+
+ul>ol:nth-child(2n+1)
+{
+    color: chartreuse;
+}
